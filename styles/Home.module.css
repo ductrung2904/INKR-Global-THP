@@ -1,0 +1,299 @@
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+}
+
+.container-left {
+  position: absolute;
+  left: 99px;
+  top: 27px;
+  width: calc(768px - 17px);
+  display: flex;
+  flex-direction: column;
+  margin-right: 17px;
+  box-sizing: border-box;
+}
+
+/* comic info */
+
+.comic-info {
+  height: 320px;
+  background: #242424;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 24px;
+}
+
+.comic-image {
+  height: 271px;
+  border-radius: 8px;
+}
+
+.comic-info__detail {
+  box-sizing: border-box;
+  margin: 0 24px;
+}
+
+.comic-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1;
+  margin-top: 0;
+}
+
+.comic-view {
+  display: flex;
+  flex-direction: row;
+}
+
+.comic-view .comic-reader {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.65);
+  margin-right: 17px;
+}
+
+.comic-view .comic-like {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.comic-tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 0;
+  gap: 10px;
+  margin-top: 24px;
+  line-height: 20px;
+}
+
+.comic-tag__content {
+  border: 1px solid #434343;
+  border-radius: 4px;
+  padding: 1px 8px;
+  color: rgba(255, 255, 255, 0.65);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.comic-read-btn {
+  width: 205px;
+  height: 32.2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  background: #ffd60a;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 8px;
+  margin-top: 60px;
+}
+
+.comic-info__detail .comic-author,
+.comic-type {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.comic-info-icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 39px;
+  flex-shrink: 0;
+}
+
+.comic-info-icons .comic-share-btn,
+.comic-more-btn {
+  width: 32px;
+  height: 32px;
+  background: #1f1f1f;
+  border: 1px solid #434343;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.comic-btn-icon {
+  margin-left: 9px;
+}
+
+/* comic price */
+
+.comic-price {
+  height: 391px;
+  background: #242424;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+/* comic list */
+
+.comic-list {
+  height: 1110px;
+  background: #242424;
+  border-radius: 8px;
+  margin-bottom: 31px;
+}
+
+/* .................................................................. */
+.container-right {
+  position: absolute;
+  right: 99px;
+  top: 27px;
+  width: 368px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* comic about */
+.comic-about {
+  height: 894px;
+  background: #242424;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.comic-about h2 {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.comic-about h3 {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.comic-about-tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 0;
+  gap: 10px;
+  line-height: 20px;
+  margin-bottom: 23px;
+}
+
+.comic-about__detail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.65);
+  opacity: 0.8;
+  margin: -7px auto 16px;
+}
+
+.comic-another-img-list {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+
+.comic-another-img {
+  width: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  padding-right: 8px;
+}
+
+.comic-credits {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.comic-credits-detail {
+  display: flex;
+  flex-direction: row;
+}
+
+.comic-credit-info {
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.comic-credit-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.comic-credit-role {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.comic-facts-context {
+  margin-bottom: 13px;
+}
+
+.comic-facts-list {
+  margin: -13px 0 -11px;
+  line-height: 10px;
+}
+
+.comic-facts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.comic-facts span {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* comic related title */
+.comic-related-title {
+  height: 535px;
+  background: #242424;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+/* comic comments */
+.comic-comments {
+  height: 360px;
+  background: #242424;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+/* comic qr code */
+.comic-qr-code {
+  height: 148px;
+  background: #242424;
+  border-radius: 8px;
+}
