@@ -1,0 +1,120 @@
+.comic-comments {
+  height: 360px;
+  background: #242424;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  padding: 24px;
+}
+
+.comic-comments h2 {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.comic-comment-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.comic-comment-detail {
+  margin-left: 16px;
+}
+
+.comic-comment-user__name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.comic-comment-user__time {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  color: #434343;
+  margin-left: 8px;
+}
+
+.comic-comment-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 6px;
+}
+
+.comic-comment-react {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -2px;
+}
+
+.comic-comment-react__icon {
+  margin-bottom: 2px;
+}
+
+.comic-comment-react__like,
+.comic-comment-react__comment {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.45);
+  margin-left: 9px;
+  margin-right: 10px;
+}
+
+.comic-comment-react span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.comic-comment-chatbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 22px;
+}
+
+.commit-comment-box {
+  margin-left: 12px;
+  margin-bottom: 28px;
+}
+
+.commit-comment-box__input {
+  width: 276px;
+  height: 32px;
+  background: #141414;
+  border: 1px solid #434343;
+  border-radius: 8px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.commit-comment-box__btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 16px;
+  gap: 8px;
+  width: 144px;
+  height: 32px;
+  background: #ffd60a;
+  border: 1px solid #ffd60a;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 8px;
+  margin-top: 12px;
+}
